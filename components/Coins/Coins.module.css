@@ -58,3 +58,16 @@
 .green {
   color: #13c783;
 }
+
+@media screen and (max-width: 800px) {
+  .desktop {
+    display: none;
+  }
+  .coin_row {
+    width: 80%;
+  }
+  .coin_data {
+    display: initial;
+    text-align: initial;
+  }
+}

@@ -41,9 +41,14 @@ body {
 
 .header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .coin_logo {
   height: 200px;
   width: 200px;
+}
+.icon {
+  font-size: 8rem;
 }

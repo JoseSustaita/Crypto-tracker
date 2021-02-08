@@ -10,8 +10,9 @@ const Layout = ({ children, title = "Crypto Tracker" }) => {
       </Head>
       <header className="header">
         <Link href="/" passHref>
-          <a>💎🤲</a>
+          <a className="icon">💎🤲</a>
         </Link>
+        <h1>Crypto Tracker</h1>
       </header>
       <main>{children}</main>
     </div>
