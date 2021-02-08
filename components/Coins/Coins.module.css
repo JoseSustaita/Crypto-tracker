@@ -36,8 +36,8 @@
 }
 .coin_data {
   display: flex;
-  text-align: right;
-  justify-content: space-between;
+  text-align: left;
+  justify-content: space-evenly;
   width: 100%;
 }
 .coin_price {
